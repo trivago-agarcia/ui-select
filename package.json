@@ -30,7 +30,13 @@
     "karma-jasmine": "~0.2",
     "karma-ng-html2js-preprocessor": "^0.1.0",
     "karma-phantomjs-launcher": "~0.1.4",
-    "karma-coverage": "~0.2"
+    "karma-coverage": "~0.2",
+    "jquery": "~1.11",
+    "angular-sanitize": ">=1.2.18",
+    "angular-mocks": ">=1.2.18"
+  },
+  "dependencies": {
+    "angular": ">=1.2.18"
   },
   "scripts": {
     "postinstall": "bower install",
