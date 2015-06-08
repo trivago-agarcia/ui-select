@@ -1,5 +1,5 @@
 {
-  "name": "ui-select",
+  "name": "trv-ng-select",
   "main": "dist/select.js",
   "author": "http://github.com/angular-ui/ui-select/graphs/contributors",
   "homepage": "http://github.com/angular-ui/ui-select",
@@ -40,6 +40,9 @@
   },
   "scripts": {
     "test": "gulp test"
+  },
+  "publishConfig" : {
+     "registry" : "http://js.pkg.trivago.trv:4873"
   },
   "license": "MIT"
 }
